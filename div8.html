@@ -22,44 +22,29 @@
     }
     .fora
     {
+        width: 70%;
         height: 100vh;
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        justify-items: center;
-        align-items: center;
-        align-content: center;
     }
-    .predio
+    .quadrado
     {
-        background-color: yellow;
-        height: 90vh;
-        width: 200px;
-
-    }
-    .casa
-    {
-        width: 800px;
-        height: 90vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        justify-items: center;
-        align-items: center;
-        align-content: center;
-    }
-    .teto
-    {
-        background-color: yellow;
-        width: 100%;
+        width: 80%;
         height: 30vh;
-
+        display: flex;
+        justify-content: left;
+        justify-items: left;
+        align-items: left;
+        align-content: left;
     }
-    .pedreiro
+    .quadradin
     {
-        width: 800px;
-        height: 70vh;
+        background-color: yellow;
+        width: 200px;
+        height: 25vh;
+    }
+    .colunas
+    {
+        width: 100%;
+        height: 60vh;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -67,25 +52,26 @@
         align-items: center;
         align-content: center;
     }
-    .parede
+    .ret
     {
         background-color: yellow;
-        width: 250px;
+        width: 200px;
         height: 60vh;
-
     }
 </style>
 <body>
     <div class="fora">
-        <div class="predio"></div>
-        <div class="casa">
-            <div class="teto"></div>
-            <div class="pedreiro">
-                <div class="parede"></div>
-                <div class="parede"></div>
-            </div>
+
+        <div class="quadrado">
+            <div class="quadradin"></div>    
         </div>
+
+        <div class="colunas">
+            <div class="ret"></div>
+            <div class="ret"></div>
+            <div class="ret"></div>
+        </div>
+
     </div>
-    
 </body>
 </html>

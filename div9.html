@@ -22,44 +22,19 @@
     }
     .fora
     {
+        width: 50%;
         height: 100vh;
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        justify-items: center;
-        align-items: center;
-        align-content: center;
     }
-    .predio
+    .retangulo_superior
     {
         background-color: yellow;
-        height: 90vh;
-        width: 200px;
-
+        width: 800px;
+        height: 25vh;
     }
-    .casa
+    .debaixo
     {
         width: 800px;
-        height: 90vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        justify-items: center;
-        align-items: center;
-        align-content: center;
-    }
-    .teto
-    {
-        background-color: yellow;
-        width: 100%;
-        height: 30vh;
-
-    }
-    .pedreiro
-    {
-        width: 800px;
-        height: 70vh;
+        height: 60vh;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -67,25 +42,46 @@
         align-items: center;
         align-content: center;
     }
-    .parede
+    .retangulo
     {
         background-color: yellow;
-        width: 250px;
-        height: 60vh;
-
+        width: 200px;
+        height: 50vh;
+    }
+    .quadradinhos
+    {
+        width: 200px;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        justify-items: center;
+        align-items: center;
+        align-content: center;    
+    }
+    .quadrado
+    {
+        background-color: yellow;
+        width: 200px;
+        height: 20vh
     }
 </style>
 <body>
     <div class="fora">
-        <div class="predio"></div>
-        <div class="casa">
-            <div class="teto"></div>
-            <div class="pedreiro">
-                <div class="parede"></div>
-                <div class="parede"></div>
+        <div class="retangulo_superior"></div>
+
+        <div class="debaixo">
+
+            <div class="retangulo"></div>
+
+            <div class="quadradinhos">
+                <div class="quadrado"></div>
+                <div class="quadrado"></div>
             </div>
+
+            <div class="retangulo"></div>
         </div>
-    </div>
-    
+
+    </div>    
 </body>
 </html>

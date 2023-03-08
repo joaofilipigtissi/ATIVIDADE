@@ -20,46 +20,10 @@
         align-content: center;
         overflow: hidden;
     }
-    .fora
-    {
-        height: 100vh;
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        justify-items: center;
-        align-items: center;
-        align-content: center;
-    }
-    .predio
-    {
-        background-color: yellow;
-        height: 90vh;
-        width: 200px;
-
-    }
-    .casa
+    .quadrados
     {
         width: 800px;
-        height: 90vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        justify-items: center;
-        align-items: center;
-        align-content: center;
-    }
-    .teto
-    {
-        background-color: yellow;
-        width: 100%;
         height: 30vh;
-
-    }
-    .pedreiro
-    {
-        width: 800px;
-        height: 70vh;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -67,25 +31,54 @@
         align-items: center;
         align-content: center;
     }
-    .parede
+    .quad 
     {
         background-color: yellow;
-        width: 250px;
-        height: 60vh;
-
+        width: 200px;
+        height: 30vh;
+    }
+    .ret   
+    {
+        background-color: yellow;
+        width: 800px;
+        height: 30vh;
+    }
+    .retquad
+    {
+        width: 800px;
+        height: 30vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        justify-items: center;
+        align-items: center;
+        align-content: center;   
+    }
+    .ret2
+    {
+        background-color: yellow;
+        width: 500px;
+        height: 30vh;
+    }
+    .quad2
+    {
+        background-color: yellow;
+        width: 200px;
+        height: 30vh;
     }
 </style>
 <body>
-    <div class="fora">
-        <div class="predio"></div>
-        <div class="casa">
-            <div class="teto"></div>
-            <div class="pedreiro">
-                <div class="parede"></div>
-                <div class="parede"></div>
-            </div>
-        </div>
+    <div class="quadrados">
+        <div class="quad"></div>
+        <div class="quad"></div>
+        <div class="quad"></div>
     </div>
-    
+
+    <div class="ret"></div>
+
+    <div class="retquad">
+        <div class="ret2">  </div>
+        <div class="quad2"></div>
+    </div>    
 </body>
 </html>

@@ -7,41 +7,33 @@
     <title>Document</title>
 </head>
 <style>
-    body
+     body
     {
         background-color: cornflowerblue;
         width: 100%;
         height: 100vh;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-around;
         justify-items: center;
         align-items: center;
         align-content: center;
         overflow: hidden;
     }
-    .fora
+    .margem
     {
+        width: 80%;
         height: 100vh;
-        width: 100%;
         display: flex;
-        flex-direction: row;
         justify-content: space-around;
         justify-items: center;
         align-items: center;
         align-content: center;
     }
-    .predio
+    .quadrados
     {
-        background-color: yellow;
-        height: 90vh;
-        width: 200px;
-
-    }
-    .casa
-    {
+        height: 100vh;
         width: 800px;
-        height: 90vh;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -49,43 +41,46 @@
         align-items: center;
         align-content: center;
     }
-    .teto
-    {
-        background-color: yellow;
-        width: 100%;
-        height: 30vh;
-
-    }
-    .pedreiro
+    .quad
     {
         width: 800px;
-        height: 70vh;
+        height: 30vh;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;
         justify-items: center;
         align-items: center;
-        align-content: center;
+        align-content: center;    
     }
-    .parede
+    .quadinho
     {
         background-color: yellow;
-        width: 250px;
+        width: 200px;
+        height: 30vh;
+    }
+    .quadao
+    {
+        background-color: yellow;
+        width: 600px;
         height: 60vh;
-
+    }
+    .retangao
+    {
+        background-color: yellow;
+        width: 200px;
+        height: 95vh;
     }
 </style>
 <body>
-    <div class="fora">
-        <div class="predio"></div>
-        <div class="casa">
-            <div class="teto"></div>
-            <div class="pedreiro">
-                <div class="parede"></div>
-                <div class="parede"></div>
+    <div class="margem">
+        <div class="quadrados">
+            <div class="quad">
+                <div class="quadinho"></div>
+                <div class="quadinho"></div>
             </div>
+            <div class="quadao"></div>
         </div>
-    </div>
-    
+        <div class="retangao"></div>
+    </div>  
 </body>
 </html>
